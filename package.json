@@ -1,0 +1,28 @@
+{
+  "name": "hike-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hike-generator/hike-sdk.git"
+  },
+  "author": "Milan Deket",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hike-generator/hike-sdk/issues"
+  },
+  "homepage": "https://github.com/hike-generator/hike-sdk#readme",
+  "devDependencies": {
+    "@types/mustache": "^0.8.31",
+    "@types/node": "^10.11.3"
+  },
+  "dependencies": {
+    "mustache": "^3.0.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.1"
+  }
+}

@@ -3,8 +3,8 @@ import Mustache from "mustache";
 import * as path from "path";
 // @ts-ignore
 import requireText from "require-text";
-import { mkdir, writeToFile } from "../util/file";
-import { getHikeDirectory } from "../util/paths";
+import { mkdir, writeToFile } from "../../util/file";
+import { getHikeDirectory } from "../../util/paths";
 import BaseGenerator from "./BaseGenerator";
 
 export interface ITemplateGeneratorArgs {

@@ -1,5 +1,5 @@
 {
-  "name": "hike-sdk",
+  "name": "@hyke/sdk",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hike-generator/hike-sdk.git"
+    "url": "git+https://github.com/hyke-generator/sdk.git"
   },
   "author": "Milan Deket",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hike-generator/hike-sdk/issues"
+    "url": "https://github.com/hyke-generator/sdk/issues"
   },
-  "homepage": "https://github.com/hike-generator/hike-sdk#readme",
+  "homepage": "https://hyke-generator.github.io/",
   "devDependencies": {
     "@types/mustache": "^0.8.31",
     "@types/node": "^10.11.3"

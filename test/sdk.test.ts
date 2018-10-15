@@ -1,14 +1,7 @@
-import DummyClass from '../src/sdk'
+import * as core from '../src/sdk'
 
-/**
- * Dummy test
- */
-describe('Dummy test', () => {
-  it('works if true is truthy', () => {
-    expect(true).toBeTruthy()
-  })
-
-  it('DummyClass is instantiable', () => {
-    expect(new DummyClass()).toBeInstanceOf(DummyClass)
+describe('SDK test', () => {
+  it('SDK is an object', () => {
+    expect(typeof core).toBe('object')
   })
 })

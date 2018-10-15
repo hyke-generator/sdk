@@ -1,5 +1,4 @@
-import { ChildProcess, SpawnOptions } from 'child_process'
-import { spawn } from 'child_process'
+import { ChildProcess, spawn, SpawnOptions } from 'child_process'
 
 export function execute(
   command: string,

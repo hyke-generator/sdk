@@ -1,9 +1,8 @@
 import { ChildProcess } from 'child_process'
 import * as fs from 'fs'
-import { PathLike } from 'fs'
 import { execute } from './execute'
 
-export function writeToFile(path: PathLike, data: string): Promise<void> {
+export function writeToFile(path: fs.PathLike, data: string): Promise<void> {
   return new Promise<void>((resolve, reject) => {
     if (fs.existsSync(path)) {
       reject(new Error('Already exists!'))

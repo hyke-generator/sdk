@@ -6,6 +6,7 @@ import { execute } from './util/execute'
 import { mkdir } from 'fs'
 import { getHikeDirectory, getNodeModulesDirectory } from './util/paths'
 import { writeToFile } from './util/file'
+import { addPackage } from './util/package'
 
 export {
   BaseGenerator,
@@ -15,5 +16,6 @@ export {
   mkdir,
   writeToFile,
   getHikeDirectory,
-  getNodeModulesDirectory
+  getNodeModulesDirectory,
+  addPackage
 }

@@ -5,6 +5,7 @@ import { mkdir } from "fs";
 import { getHikeDirectory, getNodeModulesDirectory } from "./util/paths";
 import { writeToFile } from "./util/file";
 import { addPackage } from "./util/package";
+import { sayHello } from "./util/hello";
 
 export {
     BaseGenerator,
@@ -16,6 +17,5 @@ export {
     getHikeDirectory,
     getNodeModulesDirectory,
     addPackage,
+    sayHello,
 };
-
-// Test

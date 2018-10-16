@@ -31,9 +31,6 @@
     "commit": "git-cz",
     "semantic-release": "semantic-release",
     "semantic-release-prepare": "ts-node tools/semantic-release-prepare",
-    "precommit": "lint-staged",
-    "prepush": "npm run test:prod && npm run build",
-    "commitmsg": "commitlint -E GIT_PARAMS",
     "travis-deploy-once": "travis-deploy-once"
   },
   "lint-staged": {
@@ -126,7 +123,9 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint"
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run test:prod && npm run build",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
 }

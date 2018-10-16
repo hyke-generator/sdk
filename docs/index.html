@@ -919,6 +919,9 @@ img { max-width: 100%; }
 			<a href="interfaces/itemplategeneratorargs.html" class="tsd-kind-icon">ITemplate<wbr>Generator<wbr>Args</a>
 		</li>
 		<li class=" tsd-kind-function">
+			<a href="globals.html#addpackage" class="tsd-kind-icon">add<wbr>Package</a>
+		</li>
+		<li class=" tsd-kind-function">
 			<a href="globals.html#execute" class="tsd-kind-icon">execute</a>
 		</li>
 		<li class=" tsd-kind-function">
@@ -939,6 +942,9 @@ img { max-width: 100%; }
 	<div class="content-wrap">
 		<div class="tsd-panel tsd-typography">
 			<h1 id="-hyke-sdk">@hyke/sdk</h1>
+			<p><a href="https://travis-ci.org/hyke-generator/sdk"><img src="https://travis-ci.org/hyke-generator/sdk.svg?branch=master" alt="Build Status"></a>
+				<a href="https://david-dm.org/hyke-generator/sdk"><img src="https://david-dm.org/hyke-generator/sdk/status.svg" alt="dependencies Status"></a>
+			<a href="https://badge.fury.io/js/%40hyke%2Fsdk.svg"><img src="https://badge.fury.io/js/%40hyke%2Fsdk.svg" alt="npm version"></a></p>
 		</div>
 		<div style="position:relative;"><a name="typedoc-main-index" class="tsd-anchor"></a></div>
 		<section class="tsd-panel-group tsd-index-group">
@@ -961,6 +967,7 @@ img { max-width: 100%; }
 					<section class="tsd-index-section ">
 						<h3>Functions</h3>
 						<ul class="tsd-index-list">
+							<li class="tsd-kind-function"><a href="globals.html#addpackage" class="tsd-kind-icon">add<wbr>Package</a></li>
 							<li class="tsd-kind-function"><a href="globals.html#execute" class="tsd-kind-icon">execute</a></li>
 							<li class="tsd-kind-function"><a href="globals.html#gethikedirectory" class="tsd-kind-icon">get<wbr>Hike<wbr>Directory</a></li>
 							<li class="tsd-kind-function"><a href="globals.html#getnodemodulesdirectory" class="tsd-kind-icon">get<wbr>Node<wbr>Modules<wbr>Directory</a></li>
@@ -974,6 +981,29 @@ img { max-width: 100%; }
 		<section class="tsd-panel-group tsd-member-group ">
 			<h2>Functions</h2>
 			<section class="tsd-panel tsd-member tsd-kind-function">
+				<a name="addpackage" class="tsd-anchor"></a>
+				<h3>add<wbr>Package</h3>
+				<ul class="tsd-signatures tsd-kind-function">
+					<li class="tsd-signature tsd-kind-icon">add<wbr>Package<span class="tsd-signature-symbol">(</span>packageName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/hyke-generator/sdk/blob/aae8ddd/src/util/package.ts#L3">util/package.ts:3</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>packageName: <span class="tsd-signature-type">string</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-function">
 				<a name="execute" class="tsd-anchor"></a>
 				<h3>execute</h3>
 				<ul class="tsd-signatures tsd-kind-function">
@@ -983,7 +1013,7 @@ img { max-width: 100%; }
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/hyke-generator/sdk/blob/2e88e09/src/util/execute.ts#L3">util/execute.ts:3</a></li>
+								<li>Defined in <a href="https://github.com/hyke-generator/sdk/blob/aae8ddd/src/util/execute.ts#L3">util/execute.ts:3</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1015,7 +1045,7 @@ img { max-width: 100%; }
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/hyke-generator/sdk/blob/2e88e09/src/util/paths.ts#L3">util/paths.ts:3</a></li>
+								<li>Defined in <a href="https://github.com/hyke-generator/sdk/blob/aae8ddd/src/util/paths.ts#L3">util/paths.ts:3</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
@@ -1032,7 +1062,7 @@ img { max-width: 100%; }
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/hyke-generator/sdk/blob/2e88e09/src/util/paths.ts#L7">util/paths.ts:7</a></li>
+								<li>Defined in <a href="https://github.com/hyke-generator/sdk/blob/aae8ddd/src/util/paths.ts#L7">util/paths.ts:7</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
@@ -1049,7 +1079,7 @@ img { max-width: 100%; }
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/hyke-generator/sdk/blob/2e88e09/src/util/file.ts#L20">util/file.ts:20</a></li>
+								<li>Defined in <a href="https://github.com/hyke-generator/sdk/blob/aae8ddd/src/util/file.ts#L20">util/file.ts:20</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1072,7 +1102,7 @@ img { max-width: 100%; }
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/hyke-generator/sdk/blob/2e88e09/src/util/file.ts#L5">util/file.ts:5</a></li>
+								<li>Defined in <a href="https://github.com/hyke-generator/sdk/blob/aae8ddd/src/util/file.ts#L5">util/file.ts:5</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-parameters-title">Parameters</h4>
